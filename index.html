@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pe-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yago Shoes - Loja de Calçados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Yago Shoes</h1>
+        </div>
+        <div class="botao-menu">
+            <button type="button">Abrir menu</button>
+        </div>
+        <nav class="container">
+            <ul class="menu">
+                <li>
+                    Sobre a Loja
+                </li>
+                <li>
+                    Produtos
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </nav>
+    </header>
+    <div class="container conteudo">
+        <main>
+            <section class="sobre">
+                <h2>Sobre a Loja</h2>
+                <article class="sobre-a-loja">
+                        <img src="./images/loja.png">
+                        <h4> 
+                            Bem-vindo à Yago Shoes sua loja de calçados que une estilo e conforto em um só lugar. Com uma variedade impressionante de modelos para todas as ocasiões, nossa equipe dedicada está pronta para ajudá-lo a encontrar o par perfeito que reflete sua personalidade e cuida dos seus pés. Descubra o prazer de caminhar com confiança, elegância e bem-estar. Veja nossos produtos e experimente o melhor em calçados. Seu estilo começa aqui!
+                        </h4>
+                </article>
+            </section>
+            <section>
+                <h2>Produtos</h2>
+                <div class="produtos">
+                    <article class="produto">
+                            <img src="./images/nikebranco.png">
+                            <h3> 
+                                Tênis Nike Air Max SC Masculino Branco
+                            </h3>
+                            <h5>
+                                Tamanhos disponiveis:
+                                36, 37, 38, 39, 41, 42, 43, 45 e 46
+                            </h5>
+                            <div class="price">
+                                <h4>R$ 380,00</h4>
+                            </div>
+                            <button type="button">Adicionar ao carrinho</button>
+                    </article>
+                    <article class="produto">
+                        <img src="./images/nikepreto.png">
+                        <h3> 
+                            Tênis Nike Air Max SYSTM Masculino Preto
+                        </h3>
+                        <h5>
+                            Tamanhos disponiveis:
+                            36, 37, 38, 39, 41, 42, 43, 44 e 45
+                        </h5>
+                        <div class="price">
+                            <h4>R$ 520,00</h4>
+                        </div>
+                        <button type="button">Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <img src="./images/nikecinza.png">
+                    <h3> 
+                        Tênis Nike Air Max SYSTM Masculino Cinza
+                    </h3>
+                    <h5>
+                        Tamanhos disponiveis:
+                        36, 37, 38, 39, 41, 42, 43, 44 e 45
+                    </h5>
+                    <div class="price">
+                        <h4>R$ 520,00</h4>
+                    </div>
+                    <button type="button">Adicionar ao carrinho</button>
+            </article>
+            <article class="produto">
+                <img src="./images/nikeverde.png">
+                <h3> 
+                    Tênis Nike Court Vision Low Masculino Verde
+                </h3>
+                <h5>
+                    Tamanhos disponiveis:
+                    36, 37, 38, 39, 41, 42, 43, 44 e 45
+                </h5>
+                <div class="price">
+                    <h4>R$ 550,00</h4>
+                </div>
+                <button type="button">Adicionar ao carrinho</button>
+        </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.botao-menu button').click(function () {
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Yago Shoes - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
